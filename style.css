@@ -1,0 +1,52 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(129, 115, 115);
+}
+.heading{
+  text-align: center;
+  margin-top: 20px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.button1{
+ cursor: pointer;
+
+  margin: 20px;
+  margin-right: 25px;
+  
+}
+.button2{
+  cursor: pointer;;
+  margin: 20px;
+}
+.button3{
+  cursor: pointer;
+  margin: 20px;
+}
+#display{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+}
+.choice-image{
+background-size: cover;
+height: 300px;
+border-radius: 0%;
+border: 0px;
+text-decoration: none;
+}
+#reset{
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(11, 67, 15);
+  margin-top: 25px;
+  color: yellow;
+  border-radius: 50%;
+  border: 3px solid  ;
+  font-size: 1.2rem;
+}

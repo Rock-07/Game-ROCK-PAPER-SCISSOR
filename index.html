@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROCK-PAPER-SCISSOR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">ROCK PAPER SCISSOR</h1>
+  <div class="main">
+    <button class="button1" onclick="
+    let computerChoice = generateComputerChoice();
+    let resultMsg = getResult('Rock', computerChoice);
+    showResult('Rock', computerChoice, resultMsg);
+    ">
+      <img src="rock.jpeg" alt="Rock Image" class="choice-image">  
+    </button>
+  
+    <button class="button1" onclick="
+      computerChoice = generateComputerChoice();
+      resultMsg = getResult('Paper', computerChoice);
+      showResult('Paper', computerChoice, resultMsg);
+    ">
+      <img src="paper.jpeg" alt="Paper Image" class="choice-image">  
+    </button>
+  
+    <button class="button1" onclick="
+      computerChoice = generateComputerChoice();
+      resultMsg = getResult('Scissor', computerChoice);
+      showResult('Scissor', computerChoice, resultMsg);
+    ">
+      <img src="scissor.jpeg" alt="scissor image" class="choice-image">
+    </button>
+  </div>
+ 
+  <div id="display">
+    <h3 id="user-move"></h3>
+    <h3 id="computer-move"></h3>
+    <h3 id="result"></h3>
+    <h3 id="score"></h3>
+    <button id="reset"onclick="localStorage.clear()
+    resetScore();
+">Reset</button>
+  </div>
+
+
+ 
+
+<script  src  ="script.js"></script>
+</body>
+</html>
